@@ -1,3 +1,16 @@
+---
+title: "README"
+author: "Tito Bruni"
+date: "17/09/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(datasets)
+library(kableExtra)
+```
 
 # Tidyverse
 
@@ -44,3 +57,8 @@ df <- data %>%
 ```
 
 ## 2 
+
+
+
+
+
