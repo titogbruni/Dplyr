@@ -12,6 +12,12 @@ library(kableExtra)
 
 # dplyr 
 
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/dplyr)](https://cran.r-project.org/package=dplyr)
+[![R-CMD-check](https://github.com/tidyverse/dplyr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tidyverse/dplyr/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/tidyverse/dplyr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tidyverse/dplyr?branch=main)
+<!-- badges: end -->
+
 Tidyverse has many interesting tools but here the focus will be the *dplyr* package which is the most famous package for data manipulation. My aim is to introduce the most important functions from *dplyr* and then enumerate some less popular functions which I think have proved to be helpful for me. 
 
 ## Disclaimer
