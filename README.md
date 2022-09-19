@@ -137,11 +137,17 @@ It's an awesome way to work with *if* sentences. It's useful to combine it with 
 ```{r}
 # Translating the column "hair_color" to portuguese
 
+# Example 1: translating "blond" to "loiro"
+
 # (1) Bad way:
 
-for (i in 1:length(hair_color){
-     if(data$hair_color[i] == "blond") {
-        data$hair_color[i] <- "loiro}}
+for(i in 1:87){
+  if(data[i,"hair_color"] == "blond"){
+     data[i,"hair_color"] = "loiro"
+  }else{
+    data[i,"hair_color"] = data[i,"hair_color"]
+  }
+}
 
 # (2) Good way: 
 
