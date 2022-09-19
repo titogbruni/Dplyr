@@ -1,4 +1,4 @@
-<a href='https://github.com/titogbruni/Tidyverse'><img src='https://raw.githubusercontent.com/titogbruni/Tidyverse/main/dplyr.png?token=GHSAT0AAAAAABXANQWRBG7IBZTVFFYNO6ROYZH2XFQ' align="right" height="139" /></a>
+<a href='https://github.com/titogbruni/Tidyverse'><img src='https://raw.githubusercontent.com/titogbruni/Tidyverse/main/dplyr.png?token=GHSAT0AAAAAABXANQWQRZ3PD45F2GKBT54OYZH3C4A' align="right" height="139" /></a>
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -33,7 +33,7 @@ dataframe_name %>%
 lsf.str("package:dplyr")  
 ```
 
-<a href='https://github.com/titogbruni/Tidyverse'><img src='https://raw.githubusercontent.com/titogbruni/Tidyverse/main/holy_grail.jpg?token=GHSAT0AAAAAABXANQWQ5I7SYIWK3ZV3FNNYYZH2WWQ' align="right" height="139" /></a>
+<a href='https://github.com/titogbruni/Tidyverse'><img src='https://raw.githubusercontent.com/titogbruni/Tidyverse/main/holy_grail.jpg?token=GHSAT0AAAAAABXANQWR5E3XM2ZJHGUMCEECYZH3DJQ' align="right" height="139" /></a>
 
 ## Dplyr's "Holy Grail": 
 

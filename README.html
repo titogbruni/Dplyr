@@ -276,11 +276,19 @@ data %&gt;%
 <p>It’s an awesome way to work with <em>if</em> sentences. It’s useful to combine it with <em>mutate</em> so that you edit the lines that obey a condition.</p>
 <pre class="{r}"><code># Translating the column &quot;hair_color&quot; to portuguese
 
-# for (i in 1:length(hair_color){
-#     if(data$hair_color[i] == &quot;blond&quot;) {
-#        data$hair_color[i] &lt;- &quot;loiro}}
+# Example 1: translating &quot;blond&quot; to &quot;loiro&quot;
 
-# Instead you can simply type: 
+# (1) Bad way:
+
+for(i in 1:87){
+  if(data[i,&quot;hair_color&quot;] == &quot;blond&quot;){
+     data[i,&quot;hair_color&quot;] = &quot;loiro&quot;
+  }else{
+    data[i,&quot;hair_color&quot;] = data[i,&quot;hair_color&quot;]
+  }
+}
+
+# (2) Good way: 
 
 data %&gt;%
   mutate(hair_color = case_when(hair_color == &quot;blond&quot; ~ &quot;loiro&quot;,
