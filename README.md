@@ -137,11 +137,13 @@ It's an awesome way to work with *if* sentences. It's useful to combine it with 
 ```{r}
 # Translating the column "hair_color" to portuguese
 
-# for (i in 1:length(hair_color){
-#     if(data$hair_color[i] == "blond") {
-#        data$hair_color[i] <- "loiro}}
+# (1) Bad way:
 
-# Instead you can simply type: 
+for (i in 1:length(hair_color){
+     if(data$hair_color[i] == "blond") {
+        data$hair_color[i] <- "loiro}}
+
+# (2) Good way: 
 
 data %>%
   mutate(hair_color = case_when(hair_color == "blond" ~ "loiro",
