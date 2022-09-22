@@ -51,10 +51,10 @@ lsf.str("package:dplyr")
 
 <a href='https://github.com/titogbruni/Tidyverse'><img src='https://raw.githubusercontent.com/titogbruni/Dplyr/main/r2d2.png' align="right" height="80" /></a>
 
-In this tutorial, we'll use the classic *starwars* dataset already avaiable in R.
+In this tutorial, we'll use the classic *starwars* dataset from *dplyr*.
 
 ```{r}
-data <- starwars
+data <- dplyr::starwars
 ```
 
 # Part One: Basics
